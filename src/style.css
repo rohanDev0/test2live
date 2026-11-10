@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background: #000;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.embed-frame {
+  display: block;
+  width: min(720px, 90vw);
+  height: min(405px, 55vh);
+  border: 0;
+  border-radius: 8px;
+  background: #111;
+}
